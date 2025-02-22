@@ -27,17 +27,7 @@ MIT
 
 ---
 
-### 5. Git 忽略文件
-**文件名**: `.gitignore`  
-**路径**: `/nexus-automation/.gitignore` (根目录)
 
-```plaintext
-nexus_venv/
-contracts/
-nexus-counter-app/
-*.log
-.env
-__pycache__/
 注意事项
 以上所有文件都应放置在 GitHub 仓库的根目录（/nexus-automation/）。
 .env 文件是本地配置，不应上传到 GitHub（已在 .gitignore 中忽略），用户需手动创建。
