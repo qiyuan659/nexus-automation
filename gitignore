@@ -1,0 +1,7 @@
+```plaintext
+nexus_venv/
+contracts/
+nexus-counter-app/
+*.log
+.env
+__pycache__/
